@@ -1,6 +1,7 @@
 import { Text } from "react-native";
 import PropTypes from "prop-types";
-import { styles } from "./WrettingStyes";
+
+import { styles } from "./WrettingStyles";
 
 export default function Wretting({ name = "TuentyFaiv", lastName }) {
   return (
